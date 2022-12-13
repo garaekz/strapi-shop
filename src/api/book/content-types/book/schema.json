@@ -42,6 +42,12 @@
       "relation": "manyToMany",
       "target": "api::genre.genre",
       "inversedBy": "books"
+    },
+    "discount": {
+      "type": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 100
     }
   }
 }
